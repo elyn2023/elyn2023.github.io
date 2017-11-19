@@ -37,6 +37,7 @@ h3{
 p{
     font-size:14px;
     widows: 500px;
+    width:1200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 17px;
     line-height: 1.5;
@@ -48,7 +49,7 @@ img{
 }
 
 input{
-    padding: 7px
+    padding: 8px
 }
 
 input[type=submit]{
@@ -62,10 +63,18 @@ input[type=submit]:hover{
 
 a{
     text-decoration: none;
+    color:none;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited {
+    color:gray;
 }
 
 a:hover{
     color:#EA0101;
-    font-weight: 500;
 }
 
