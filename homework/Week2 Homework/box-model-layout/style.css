@@ -1,0 +1,32 @@
+p {
+    background-color: tomato;
+    text-align: center;
+    padding:20px 5px;
+}
+
+div{
+    width:800px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    background-color:lightgray;
+}
+
+h1 {
+    color:white;
+    background:black;
+    text-align: center;
+    font-size: 15px;
+    padding:8px 0px;
+}
+
+.purple{
+    color:purple;
+}
+
+.green{
+    color:green;
+}
+
+.yellow{
+    color:yellow;
+}

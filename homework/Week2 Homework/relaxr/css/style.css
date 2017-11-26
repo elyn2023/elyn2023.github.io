@@ -1,0 +1,164 @@
+
+* {
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+/* QUESTION here: what's this....? */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; 
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; 
+}
+/* QUESTION here: what are these .clearfix, .alignleft, .alignright for.....? */
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background-size: cover;
+}
+
+header {
+  display: block; 
+  width: 100%;
+  height: 500px;
+  line-height: 100px;
+  padding: 50px; 
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  /* QUESTION here: How to make the background image to show more, when the screen's bigger? */
+  max-height: 900px;
+  margin: 0px auto;
+  font-size: 24px;
+  color: white;
+
+}
+
+h1 {
+  font-weight: bolder;
+  padding:5px auto auto 5px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: semi bold;
+}
+
+.button1 {
+  background-color:#f9e42e;
+  display: block; 
+  margin:20px auto;
+  padding: 5px 24px;
+  font-weight: bold;
+  font-size:13px;
+}
+
+.benefits {
+  text-align: left;
+  padding: 80px 200px 40px 100px;
+  /* QUESTION here: I used padding to position the text block. but if i make the window smaller like looking at it on the phone, the text block's width become weird. Any better ways?  */
+  font-size:13px;
+  font-weight:lighter;
+  color:#033048;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  padding: 30px 50px 50px 30px;
+  font-weight:lighter;
+}
+
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+
+}
+
+.amanda_copy {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+h5 {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+}
+
+.yellow {
+  background: #f9e42e;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+#sign_up_button {
+  color:white;
+  background-color:#033048;
+  display: inline-block;
+  padding: 5px 30px;
+  margin: 13px;
+  font-weight: bold;
+  font-size:13px;
+}
+
+
+.black{
+  background: #121212;
+  width: 100%;
+  height: 220px;
+}
+
+#yellow_logo {
+  color:#f9e42e;
+  font-weight: bolder;
+  font-size:24px;
+  text-align: center;
+  padding: 50px;
+}
+
+.social{
+  width:80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.twitter{
+  padding-right: 10px;
+  display: inline-block; 
+}
+
+footer {
+  color:white;
+  font-size: 9px;
+  text-align: center;
+  padding-bottom: 20px;
+}
