@@ -1,0 +1,85 @@
+header {
+    height:100px;
+    display: flex;
+    flex-direction: row
+}
+
+.logo{
+    width: 25%;
+    height: 100px;
+    background-image:url('../image/mario-logo.jpg');
+    background-size: cover;
+}
+
+nav {
+    width:75%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    width:150px;
+    height:40px;
+    background: red;
+    margin:2px;
+    color:white;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu:hover{
+    color:red;
+    background:black;
+}
+
+main {
+    height:600px;
+    background-image:url('../image/main.jpg');
+    background-size: cover;
+    margin: 2px;
+    position: relative;
+    top:50%;
+}
+
+section {
+    height: 350px;
+    display: flex;
+    justify-content: row;
+}
+
+.sec-1 {  
+    width: 33.333%;
+    margin:2px;
+    background-image:url('../image/sec-1.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
+
+.sec-2 {  
+    width: 33.333%;
+    margin:2px;
+    background-image:url('../image/sec-2.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
+
+.sec-3 {  
+    width: 33.333%;
+    margin:2px;
+    background-image:url('../image/sec-3.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
+
+
+footer {
+    height:150px;
+    background-image:url('../image/footer.jpg');
+    background-size: cover;
+    max-width: 100%;
+}

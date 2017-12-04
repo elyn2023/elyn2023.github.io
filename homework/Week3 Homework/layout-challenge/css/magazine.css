@@ -1,0 +1,80 @@
+header {
+    height:100px;
+    display: flex;
+    flex-direction: row
+}
+
+.logo {
+    width: 25%;
+    height: 100px;
+    background:red;
+    margin:2px;
+}
+
+nav {
+    width:75%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    width:150px;
+    height:50px;
+    background: green;
+    margin:2px;
+}
+
+main {
+    display:flex;
+    justify-content: row;
+    height: 500px;
+}
+
+aside {
+    width:15%;
+    background: orange;
+}
+
+section {
+    width:85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background: teal;
+    height: 100px;
+}
+
+.mid{
+    height: 200px;
+    display: flex;
+}
+
+.mid-1 {
+    width:74.5%;
+    background: red;
+}
+
+.mid-2 {
+    width:25.5%;
+    background:turquoise;
+}
+
+.bot {
+    height:200px;
+    display: flex;
+}
+
+.square {
+    width:25%;
+    background: darkorchid;
+    margin: 1px;
+}
+
+footer {
+    background: greenyellow;
+    height:100px;
+}
+
