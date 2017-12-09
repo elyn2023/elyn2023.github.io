@@ -1,3 +1,4 @@
+
 header {
     height:100px;
     display: flex;
@@ -8,7 +9,7 @@ header {
     width: 25%;
     height: 100px;
     background:red;
-    margin:2px;
+    
 }
 
 nav {
@@ -22,7 +23,7 @@ nav {
     width:150px;
     height:50px;
     background: green;
-    margin:2px;
+    margin-left:2px;
 }
 
 main {
@@ -54,7 +55,7 @@ section {
 
 .mid-1 {
     width:74.5%;
-    background: red;
+    background:brown;
 }
 
 .mid-2 {
@@ -67,11 +68,15 @@ section {
     display: flex;
 }
 
-.square {
+.square-1, .square-2, .square-3, .square-4 {
     width:25%;
     background: darkorchid;
-    margin: 1px;
 }
+
+.square-1, .square-2, .square-3 {
+    margin-right:1px;
+}
+
 
 footer {
     background: greenyellow;
