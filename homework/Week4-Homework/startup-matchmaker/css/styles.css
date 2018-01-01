@@ -1,0 +1,139 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+header {
+    background:black;
+    border-bottom: 4px solid yellow;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color:yellow;
+    margin-left:30px;
+}
+
+.span__menu {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-right: 55px;
+}
+
+h2 {
+    background: lightgray;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding:21px;
+    font-size: 23px;
+    color:black;
+}
+
+.h2__taste {
+    color:gray;
+    text-decoration:line-through;
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    margin: 0;
+    font-size: 23px;
+}
+
+.h2__are {
+    border-bottom: 3px solid yellow;
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    margin: 0;
+    font-size: 23px;
+    color:black;
+}
+
+.background__img{
+    background-image: url('../img/coworking.jpg');
+    width:100%;
+    background-position: center;
+    margin: 0;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.box--transparent {
+    background:rgba(255,255,255, 0.8);
+    width: 382px;
+    padding: 29px;
+    margin: 46px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size:30px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px;
+}
+
+.btn--yellow {
+    border-radius: 8px;
+    padding: 8px 100px;
+    display: inline-block;
+    background: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px gray;
+  }
+
+  section {
+      display: flex;
+      justify-content: space-around;
+      margin: 5px;
+      align-items: baseline;
+  }
+
+  .action {
+    border-right: 1px solid lightgray;
+    padding: 25px 40px;
+    margin: 25px 0;
+  }
+
+.action__right{
+  padding: 25px 40px;
+  margin: 25px 0;
+}
+
+  h4{
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+  }
+
+  .btn--gray {
+    border-radius: 8px;
+    padding: 8px 50px;
+    display: inline-block;
+    background: lightgray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px gray;
+  }
+
+  footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+    color:white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:20px;
+  }
+ 
