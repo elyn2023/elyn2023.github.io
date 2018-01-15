@@ -1,0 +1,191 @@
+body {
+	line-height: 1.5;
+	width: 100%;
+}
+
+/* header and logo */
+
+header {
+	
+	height: 800px;
+	background-color: rgb(107, 194, 183);
+}
+
+.logo {
+	width: 108px;
+	display: block;
+    margin: auto;
+	padding-top: 300px;
+	cursor:  url(../images/mouse_cake.svg),auto;
+}
+
+/* header image rotates */
+
+
+.head_img_1 {
+	background: url(../images/2_bgA.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+
+.head_img_2 {
+	background: url(../images/2_bgB.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+
+h1 {
+	font-family: 'Cormorant', serif;
+	font-size: 55px;
+	color: white;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center; 
+	line-height: 1;
+}
+
+/* process infographics */
+
+.process_1 {
+	background: url(../images/3_s_step1.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	border: 1px solid black;
+}
+
+section {
+	padding-left: 100px;
+	padding-top: 150px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: rgb(107, 194, 183);
+	padding-bottom: 15px;
+}
+
+h3 {
+	font-family: 'Cormorant', serif;
+	font-size: 40px;
+	line-height: 1 ;
+}
+
+.process_2 {
+	background: url(../images/3_s_step2.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	border: 1px solid black;
+}
+
+.process_3 {
+	background: url(../images/3_s_step3.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	border: 1px solid black;
+}
+
+.process_4 {
+	background: url(../images/3_s_step4.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	border: 1px solid black;
+}
+
+/* gallery */
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid black;
+	padding: 30px;
+}
+
+.cupcake_img {
+	width: 220px;
+}
+
+.cupcake_1 {
+	margin: 30px 50px;
+}
+
+h4 {
+	font-family: 'Cormorant', serif;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 1.2;
+}
+
+/* chef */
+
+.chef {
+	background: url(../images/5_chef_bg.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+
+h5 {
+	font-family: 'Cormorant', serif;
+	font-size: 60px;
+	color: white;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Cormorant', serif;
+	font-size: 80px;
+	color: white;
+	margin: 0;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: rgb(107, 194, 183);
+	margin: 0;
+    position: absolute;
+    top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/* location */
+
+.location {
+	background: url(../images/6_contact_bg.png)center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+
+/* footer */
+
+footer {
+	background-color: rgb(107, 194, 183);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: white;
+
+	padding: 12px;
+
+}
