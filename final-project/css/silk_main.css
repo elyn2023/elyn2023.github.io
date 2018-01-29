@@ -1,30 +1,130 @@
 body {
 	line-height: 1.5;
 	width: 100%;
-	height: 100%；
+	
+	cursor: url(‘../images/mouse_cake.png’), auto;
 }
 
+a {
+	text-decoration: none;
+}
 /* header and logo */
 
 header {
 	
-	height: 800px;
+	height: 100vh;
 	background-color: rgb(107, 194, 183);
 	/* parallex effect */
-	background-attachment: fixed;
+	/* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .logo {
-	width: 180px;
-	padding-left: 150px;
-	padding-top: 300px;
-	position: fixed;
+	width: 250px;
+	padding-left: 250px;
+	padding-top: 350px;
+
+	position: absolute;
 	left:20;
 	top:0;
-	z-index: 0;
+
+}
+
+
+/* scroll icon */
+
+
+#section10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.demo a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section10 a {
+  padding-top: 80px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+	left: 50%;
+	bottom: 10%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+	left: 50%;
+	bottom: 10%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+
+
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 
@@ -34,20 +134,37 @@ header {
 
 /* header image rotates */
 
-
-.head_img_1 {
-	background: url(../images/2_bgA.png)center center no-repeat;
-	background-size: cover;
-	height: 800px;
+.rslides {
 	position: relative;
-}
-
-.head_img_2 {
-	background: url(../images/2_bgB.png)center center no-repeat;
-	background-size: cover;
-	height: 800px;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+  
+  .rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+	}
+  
+  .rslides li:first-child {
 	position: relative;
-}
+	display: block;
+	float: left;
+	}
+  
+  .rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+	}
 
 h1 {
 	font-family: 'Cormorant', serif;
@@ -79,7 +196,7 @@ section {
 
 h2 {
 	font-family: 'Lato', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(107, 194, 183);
 	padding-bottom: 15px;
 }
@@ -90,13 +207,14 @@ h3 {
 	line-height: 1 ;
 }
 
-.process_2 {
-	background: url(../images/3_s_step2.png)center center no-repeat;
-	background-size: cover;
-	height: 800px;
-	border: 1px solid black;
-}
 
+
+.custom_cake {
+	background: url(../images/cake_01.svg)center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+/* 
 .process_3 {
 	background: url(../images/3_s_step3.png)center center no-repeat;
 	background-size: cover;
@@ -109,7 +227,7 @@ h3 {
 	background-size: cover;
 	height: 800px;
 	border: 1px solid black;
-}
+} */
 
 /* gallery */
 
@@ -118,7 +236,6 @@ h3 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	border: 1px solid black;
 	padding: 30px;
 }
 
@@ -140,13 +257,13 @@ h4 {
 
 /* chef */
 
-.chef {
+/* .chef {
 	background: url(../images/5_chef_bg.png)center center no-repeat;
 	background-size: cover;
-	height: 800px;
+	height: 100vh;
 	position: relative;
 	/* parallex effect: */
-	background-attachment: fixed;
+	/* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,11 +298,78 @@ p {
 	font-size: 20px;
 	color: rgb(107, 194, 183);
 	margin: 0;
-    position: absolute;
-    top: 65%;
+  position: relative;
+  top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.chef_bodycopy {
+	font-size: 15px;
+	color: white;
+	position: relative;
+	bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+} */ 
+
+.chef{
+	display: flex;
+	flex-direction: column;
+	background: url(../images/5_chef_bg.png)center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h5 {
+	font-family: 'Cormorant', serif;
+	font-size: 60px;
+	color: white;
+	margin: 0;
+	padding-top: 30%;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Cormorant', serif;
+	font-size: 80px;
+	color: white;
+	margin: 0;
+    /* position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+	text-align: center;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: rgb(107, 194, 183);
+	margin: 0;
+  /* position: relative;
+  top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+	text-align: center;
+}
+
+.chef_bodycopy {
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	padding-left: 15%;
+	padding-right:15%;
+	display: none;
 }
 
 
@@ -195,7 +379,7 @@ p {
 .location {
 	background: url(../images/6_contact_bg.png)center center no-repeat;
 	background-size: cover;
-	height: 800px;
+	height: 100vh;
 	position: relative;
 }
 
@@ -282,8 +466,8 @@ footer {
   nav {
 	width: 250px;
 	height: 100%;
-	background: #eaeaea;
-	opacity: 0.5;
+	background: white;
+	opacity: 0.9;
 	position: fixed;
 	-webkit-transform: translateX(-250px);
 			transform: translateX(-250px);
@@ -303,10 +487,14 @@ footer {
 	margin: 0;
 	list-style: none;
 	padding: 0;
+	padding-top: 50%;
   }
   nav ul li {
-	padding: 20px 5px;
-	font-size: 2rem;
+	padding: 20px 15px;
+	padding-left: 54px;
+	cursor: pointer;
+	font-family: 'Cormorant', serif;
+	font-size: 28px;
   }
   nav ul li:hover {
 	background: rgb(107, 194, 183);

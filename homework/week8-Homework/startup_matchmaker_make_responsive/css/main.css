@@ -11,18 +11,18 @@ body {
 /* Text Styles */
 
 h1 {
-	font-size: 40px;
+	font-size: 2em;
 	line-height: 1;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
 h3 {
 	font-family: 'Merriweather', serif;
-	font-size: 25px;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 
@@ -98,7 +98,7 @@ header {
 	text-align: center;
 	margin: 0;
 	padding: 20px 28px;
-	font-size: 25px;
+	font-size: 1.25em;
 	line-height: 20px;
 	font-style: italic;
 	background: #C6C6C6;
@@ -185,6 +185,7 @@ footer {
 
 
 	@media(max-width: 1000px) {
+		/* when width is less than 1000px, below codes run */
 		body {
 			width: 95%
 		}
