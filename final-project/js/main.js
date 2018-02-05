@@ -76,7 +76,7 @@ $('.js-menu').on('click', function() {
 	} else {
 		$(this).addClass('active');
 		$('body').addClass('menu-open');
-		$('header').removeClass('menu-open');
+		$('header').addClass('menu-open');
 	}
 
 	isActive = !isActive;
