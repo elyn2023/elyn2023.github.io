@@ -3,22 +3,18 @@
 body {
 	line-height: 1.5;
 	width: 100%;
-	cursor: url(‘images/mouse_cake.png’), auto;
+	/* cursor: url(‘../images/mouse_cake.png’), auto; */
 }
 
 a {
 	text-decoration: none;
 }
+
 /* header and logo */
 
 header {
 	height: 100vh;
 	background-color: rgb(107, 194, 183);
-	/* parallex effect */
-	/* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 /* hamburger menu below */
@@ -127,7 +123,6 @@ header {
 	background: rgb(107, 194, 183);
 	}
 	
-
 /* hamburger menu above */
 
 .logo {
@@ -138,7 +133,6 @@ header {
 	left:20;
 	top:0;
 	z-index: 50;
-
 }
 
 .mini_logo {
@@ -153,18 +147,13 @@ header {
 	cursor: pointer;
 }
 
-
 /* scroll icon */
-
 
 #section10 {
   position: relative;
   width: 100%;
 	height: 100%;
-	
 }
-
-
 
 .demo a {
   position: absolute;
@@ -215,7 +204,6 @@ header {
   box-sizing: border-box;
 }
 
-
 @-webkit-keyframes sdb10 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -251,8 +239,6 @@ header {
 
 
   a  { color: inherit; } 
-
-
 
 /* header image rotates */
 
@@ -344,7 +330,7 @@ h3 {
 }
 
 .customh3 {
-	color: 	color: rgb(107, 194, 183);
+	color: 	rgb(107, 194, 183);
 }
 
 /* gallery */
@@ -359,6 +345,7 @@ h3 {
 
 .cupcake_img {
 	width: 220px;
+	padding-bottom: 15px;
 }
 
 /* .cupcake_1 {
@@ -397,10 +384,6 @@ h5 {
 	color: white;
 	margin: 0;
 	padding-top: 30%;
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
 	text-align: center;
 }
 
@@ -409,10 +392,6 @@ h6 {
 	font-size: 80px;
 	color: white;
 	margin: 0;
-    /* position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 	text-align: center;
 }
 
@@ -421,11 +400,11 @@ p {
 	font-size: 20px;
 	color: rgb(107, 194, 183);
 	margin: 0;
-  /* position: relative;
-  top: 65%;
-	left: 50%;
-	transform: translate(-50%, -50%); */
 	text-align: center;
+}
+
+.view_bottom {
+	cursor: pointer;
 }
 
 .chef_bodycopy {
@@ -436,8 +415,6 @@ p {
 	padding-right:15%;
 	display: none;
 }
-
-
 
 /* location */
 
@@ -455,8 +432,6 @@ footer {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	color: white;
-
 	padding: 12px;
-
 }
 

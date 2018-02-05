@@ -84,17 +84,6 @@ $('.js-menu').on('click', function() {
 
 //cupcake_hover effect
 
-
-
-// $('.cupcake_1').hover(function(){
-// 	$('.cupcake_hover').toggleClass("visible");
-// })
-
-// $('.cupcake_1').hover(function(){
-// 	$('.cupcake_hover').toggleClass("hidden");
-// }
-// )
-
 $('.cupcake_1').hover(
 	function () {
 		$('.cupcake_hover1').fadeIn();
